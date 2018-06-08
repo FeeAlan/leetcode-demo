@@ -47,12 +47,38 @@ def reverse(number):
 
 
 def is_palindrome(num):
-    if num < 0:
+    """
+    直接反转数字然后比较，数字较大时有可能内存溢出
+
+    :param num:
+    :return:
+    """
+    if num < 0 or (num % 10 == 0 and num != 0):
         return False
     else:
         return reverse(num) == num
 
 
+def is_palindrome2(num):
+    """
+    第二种解法  截取数字的一半然后反转与另外一半比较
+    :param num:
+    :return:
+    """
+    if num < 0 or (num % 10 == 0 and num != 0):
+        return False
+    else:
+        reverse_num = 0
+        while num > reverse_num:
+            reverse_num = reverse_num * 10 + int(num % 10)
+            num = int(num / 10)
+
+        return num == reverse_num or num == int(reverse_num / 10)
+
+
 if __name__ == "__main__":
-    num = -121
+    num = 121
     print(is_palindrome(num))
+
+    num = 1221
+    print(is_palindrome2(num))
