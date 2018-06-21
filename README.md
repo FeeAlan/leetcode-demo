@@ -17,3 +17,4 @@
 |35|[search insert position](https://leetcode-cn.com/problems/search-insert-position/description/)|简单|[链接](/35_search_insert_position/search_insert_position.py)|
 |38|[count and say](https://leetcode-cn.com/problems/count-and-say/description/)|简单|[链接](/38_count_and_say/count_and_say.py)|
 |53|[maximum sub array](https://leetcode-cn.com/problems/maximum-subarray/description/)|简单|[链接](/53_maximum_sub_array/max_sub_array.py)|
+|58|[length of last word](https://leetcode-cn.com/problems/length-of-last-word/description/)|简单|[链接](/58_length_of_last_word/length_of_last_word.py)|
