@@ -78,9 +78,22 @@ def is_palindrome2(num):
         return num == reverse_num or num == int(reverse_num / 10)
 
 
+def is_palindrome3(num):
+    """
+    第三种解法  把数字变成字符串 然后看回文是否相等
+    :param num:
+    :return:
+    """
+    orig = str(num)
+    revers = orig[::-1]
+    return orig == revers
+
+
 if __name__ == "__main__":
     num = 121
     print(is_palindrome(num))
 
     num = 1221
     print(is_palindrome2(num))
+    num = 1221
+    print(is_palindrome3(num))
