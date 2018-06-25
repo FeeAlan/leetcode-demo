@@ -20,3 +20,4 @@
 |58|[length of last word](https://leetcode-cn.com/problems/length-of-last-word/description/)|简单|[链接](/58_length_of_last_word/length_of_last_word.py)|
 |66|[plus one](https://leetcode-cn.com/problems/plus-one/description/)|简单|[链接](/66_plus_one/plus_one.py)|
 |67|[add binary](https://leetcode-cn.com/problems/add-binary/description/)|简单|[链接](/67_add_binary/add_binary.py)|
+|69|[x sqrt](https://leetcode-cn.com/problems/sqrtx/description/)|简单|[链接](/69_x_sqrt/x_sqrt.py)|
