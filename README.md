@@ -22,3 +22,4 @@
 |67|[add binary](https://leetcode-cn.com/problems/add-binary/description/)|简单|[链接](/67_add_binary/add_binary.py)|
 |69|[x sqrt](https://leetcode-cn.com/problems/sqrtx/description/)|简单|[链接](/69_x_sqrt/x_sqrt.py)|
 |70|[climbing stairs](https://leetcode-cn.com/problems/climbing-stairs/description/)|简单|[链接](/70_climbing_stairs/climbing_stairs.py)|
+|88|[merge sort array](https://leetcode-cn.com/problems/merge-sorted-array/description/)|简单|[链接](/88_merge_sort_array/merge_sort_array.py)|
